@@ -30,7 +30,7 @@
     <link href="css/landing-page.min.css" rel="stylesheet">
 </head>
 <body>
-			<li><a href="<?php echo "index.php?page=tampil"?>">tampil</a></li>
+			<li><a href="<?php echo "index.php?page=tampil"?>"></a></li>
 	<div class="container">
 		<h1 class="text-center">Input data</h1>
 		<div class="col-md-6 col-md-offset-4">
