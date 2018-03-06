@@ -1,10 +1,7 @@
 <?php
 	include("config/config.php");
 
-	session_start();
-	if (empty($_SESSION['email_aja'])){
-		header("location: " . "index.html?page=login");
-	}
+
 ?>
 
 <!DOCTYPE html>
