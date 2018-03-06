@@ -36,6 +36,7 @@
 		<div class="col-md-6 col-md-offset-4">
 			<form class="form-horizontal" action="<?php echo"proses_input.php"; ?>" method="POST">
 					<div class="form-group">
+					<div class="col-sm-10">
 			    		<label>Nama:</label>
 			    		<input type="nama" class="form-control" name="nama" required>
 			  		</div>
