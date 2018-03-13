@@ -19,7 +19,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
         <table class="table">
             <thead class="thead-dark">
                 <tr>
-                    <th>Nama</th> <th>Email</th> <th>Nrp</th>
+                    <th>Nama</th> <th>Email</th> <th>Nrp</th><th>Edit dan Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,7 +28,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
             echo "<tr>";
             echo "<td>".$user_data['nama']."</td>";
             echo "<td>".$user_data['email']."</td>";
-            echo "<td>".$user_data['nrp']."</td>";    
+            echo "<td>".$user_data['nrp']."</td>"; 
+             echo "<td><a href='edit.php?id=$user_data[id]'>Edit</a> | <a href='delete.php?id=$user_data[id]'>Delete</a></td></tr>";    
           
         }
         ?>
