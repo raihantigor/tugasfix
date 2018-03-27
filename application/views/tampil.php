@@ -1,13 +1,11 @@
-<?php session_start(); ?>
-
 <?php
 // Create database connection using config file
 include_once("config/config.php");
 
-    if(!isset($_SESSION["email_aja"]))
-    {
-        header("Location:login.php");
-    }
+    // if(!isset($_SESSION["email_aja"]))
+    // {
+    //     header("Location:login.php");
+    // }
  
 // Fetch all users data from database
 $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");

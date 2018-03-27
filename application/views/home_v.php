@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -32,8 +31,8 @@
           <a class="navbar-brand" href="#"><img alt="logo" src="img/its.png" class="logo"></a>
         </div>
         <div class="col-auto">
-          <a class="btn btn-primary" href="login.php">Admin</a>
-          <a class="btn btn-primary" href="input.php">Daftar</a>
+          <a class="btn btn-primary" href="<?php echo base_url() . "index.php/home/login"?>">Admin</a>
+          <a class="btn btn-primary" href="<?php echo base_url() . "index.php/home/input"?>">Daftar</a>
         </div>
       
     </nav>
